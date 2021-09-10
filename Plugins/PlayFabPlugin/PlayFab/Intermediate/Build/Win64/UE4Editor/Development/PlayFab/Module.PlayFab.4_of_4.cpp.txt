@@ -1,0 +1,36 @@
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFab\Definitions.PlayFab.h
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFab/Private/PlayFabServerModelDecoder.cpp
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabServerModelDecoder.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabEnums.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabJsonObject.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabJsonObject.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabEnums.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabServerModels.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabRequestCommon.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabAuthenticationContext.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabAuthenticationContext.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabRequestCommon.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabLoginResultCommon.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabResultCommon.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabResultCommon.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabLoginResultCommon.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabServerModels.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabServerModelDecoder.generated.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Private\PlayFabPrivate.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\Http.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpRequest.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpBase.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpResponse.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\PlatformHttp.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\Windows/WindowsPlatformHttp.h
+C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform/GenericPlatformHttp.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab/Public/IPlayFab.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommon.h
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFab/Private/PlayFabServerModels.cpp
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFab/Private/PlayFabUtilities.cpp
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab\Classes\PlayFabUtilities.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabUtilities.generated.h
