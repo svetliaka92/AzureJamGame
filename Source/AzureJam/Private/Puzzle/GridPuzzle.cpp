@@ -1,5 +1,6 @@
 #include "Puzzle/GridPuzzle.h"
 #include "Puzzle/PuzzleNodePoint.h"
+#include "Puzzle/EDirection.h"
 
 AGridPuzzle::AGridPuzzle()
 {
@@ -31,21 +32,102 @@ void AGridPuzzle::SetNodeGrid(TArray<APuzzleNode*> InNodes)
 	TestNodeDirection();
 }
 
-APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY, const int32 InNodePointIndex) const
+FVector AGridPuzzle::GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
 {
-	APuzzleNode* Node = GetNodeAtCoordinate(InCoordX, InCoordY);
+	FVector NextLocation = FVector(100.f, 100.f, 100.f);
 
-	if (IsValid(Node))
+	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
+	APuzzleNode* Next = GetNextNode(CurrentX, CurrentY, CurrentPointIndex);
+	if (IsValid(Current) && IsValid(Next))
 	{
-		APuzzleNodePoint* NodePoint = Node->GetPointAtIndex(InNodePointIndex);
-		if (IsValid(NodePoint))
+		FVector2D Dir = FVector2D(Next->GetCoordinates().X - Current->GetCoordinates().X,
+								  Next->GetCoordinates().Y - Current->GetCoordinates().Y);
+
+		int32 NextPointIndex = GetNodePointIndexFromDirection(Dir);
+		APuzzleNodePoint* NextPoint = Next->GetPointAtIndex(NextPointIndex);
+		if (IsValid(NextPoint))
 		{
-			// get redirector directions from node point
-			// 
+			NextLocation = NextPoint->GetActorLocation();
 		}
 	}
 
-	return nullptr;
+	return NextLocation;
+}
+
+APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY, const int32 InNodePointIndex) const
+{
+	APuzzleNode* NextNode = nullptr;
+	APuzzleNode* Node = GetNodeAtCoordinate(InCoordX, InCoordY);
+
+	if (!IsValid(Node) || !Node->bActive)
+	{
+		return NextNode;
+	}
+
+	APuzzleNodePoint* NodePoint = Node->GetPointAtIndex(InNodePointIndex);
+	if (!IsValid(NodePoint))
+	{
+		return NextNode;
+	}
+
+	// get redirector directions from node point
+	EDirection BottomPointDir = Node->GetBottomDirectionAtIndex(InNodePointIndex);
+	EDirection TopPointDir = Node->GetTopDirectionAtIndex(InNodePointIndex);
+
+	FVector BottomDir = FVector();
+	switch (BottomPointDir)
+	{
+		case EDirection::Zero:
+			BottomDir = FVector::ZeroVector;
+			break;
+		case EDirection::Forward:
+			BottomDir = Node->GetActorForwardVector();
+			break;
+		case EDirection::Right:
+			BottomDir = Node->GetActorRightVector();
+			break;
+		case EDirection::Back:
+			BottomDir = -Node->GetActorForwardVector();
+			break;
+		case EDirection::Left:
+			BottomDir = -Node->GetActorRightVector();
+			break;
+	}
+
+	FVector TopDir = FVector();
+	if (Node->bHasTopCollider)
+	{
+		switch (TopPointDir)
+		{
+			case EDirection::Zero:
+				TopDir = FVector::ZeroVector;
+				break;
+			case EDirection::Forward:
+				TopDir = Node->GetActorForwardVector();
+				break;
+			case EDirection::Right:
+				TopDir = Node->GetActorRightVector();
+				break;
+			case EDirection::Back:
+				TopDir = -Node->GetActorForwardVector();
+				break;
+			case EDirection::Left:
+				TopDir = -Node->GetActorRightVector();
+				break;
+		}
+	}
+	
+	FVector FullDir = BottomDir + TopDir;
+	FullDir.X = FMath::Clamp(FullDir.X, -1.0f, 1.0f);
+	FullDir.Y = FMath::Clamp(FullDir.Y, -1.0f, 1.0f);
+
+	FVector NextNodeCoords = FVector(FullDir.X + Node->GetCoordinates().X,
+									 FullDir.Y + Node->GetCoordinates().Y,
+									 0.0f);
+
+	NextNode = GetNodeAtCoordinate(NextNodeCoords.X, NextNodeCoords.Y);
+
+	return NextNode;
 }
 
 APuzzleNode* AGridPuzzle::GetNodeAtCoordinate(int32 InCoordX, int32 InCoordY) const
@@ -81,23 +163,6 @@ int32 AGridPuzzle::GetNodePointIndexFromDirection(FVector2D Dir)
 
 void AGridPuzzle::TestNodeDirection()
 {
-	APuzzleNode* Node = GetNodeAtCoordinate(1, 1);
-
-	APuzzleNode* O1 = GetNodeAtCoordinate(0, 0);
-	APuzzleNode* O2 = GetNodeAtCoordinate(0, 1);
-	APuzzleNode* O3 = GetNodeAtCoordinate(0, 2);
-	APuzzleNode* O4 = GetNodeAtCoordinate(1, 2);
-	APuzzleNode* O5 = GetNodeAtCoordinate(2, 2);
-	APuzzleNode* O6 = GetNodeAtCoordinate(2, 1);
-	APuzzleNode* O7 = GetNodeAtCoordinate(2, 0);
-	APuzzleNode* O8 = GetNodeAtCoordinate(1, 0);
-
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O1->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O2->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O3->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O4->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O5->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O6->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O7->GetCoordinates() - Node->GetCoordinates())));
-	UE_LOG(LogTemp, Warning, TEXT("Chosen index: %i"), (GetNodePointIndexFromDirection(O8->GetCoordinates() - Node->GetCoordinates())));
+	FVector Dir = GetNextNodePointLocation(1, 1, 1);
+	UE_LOG(LogTemp, Warning, TEXT("Next node location: %s"), *Dir.ToCompactString());
 }

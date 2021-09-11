@@ -33,7 +33,7 @@ struct FCloudScriptExecuteEntityCloudScriptRequest;
 #endif
 #define PLAYFAB_PlayFabCloudScriptAPI_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_211_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_211_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessUnregisterFunction_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -48,7 +48,7 @@ static inline void FDelegateOnSuccessUnregisterFunction_DelegateWrapper(const FS
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_198_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_198_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessRegisterQueuedFunction_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -63,7 +63,7 @@ static inline void FDelegateOnSuccessRegisterQueuedFunction_DelegateWrapper(cons
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_185_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_185_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessRegisterHttpFunction_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -78,7 +78,7 @@ static inline void FDelegateOnSuccessRegisterHttpFunction_DelegateWrapper(const 
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_172_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_172_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessPostFunctionResultForScheduledTask_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -93,7 +93,7 @@ static inline void FDelegateOnSuccessPostFunctionResultForScheduledTask_Delegate
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_159_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_159_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessPostFunctionResultForPlayerTriggeredAction_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -108,7 +108,7 @@ static inline void FDelegateOnSuccessPostFunctionResultForPlayerTriggeredAction_
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_146_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_146_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessPostFunctionResultForFunctionExecution_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -123,7 +123,7 @@ static inline void FDelegateOnSuccessPostFunctionResultForFunctionExecution_Dele
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_133_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_133_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessPostFunctionResultForEntityTriggeredAction_Parms \
 { \
 	FCloudScriptEmptyResult result; \
@@ -138,7 +138,7 @@ static inline void FDelegateOnSuccessPostFunctionResultForEntityTriggeredAction_
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_120_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_120_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessListQueuedFunctions_Parms \
 { \
 	FCloudScriptListQueuedFunctionsResult result; \
@@ -153,7 +153,7 @@ static inline void FDelegateOnSuccessListQueuedFunctions_DelegateWrapper(const F
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_107_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_107_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessListHttpFunctions_Parms \
 { \
 	FCloudScriptListHttpFunctionsResult result; \
@@ -168,7 +168,7 @@ static inline void FDelegateOnSuccessListHttpFunctions_DelegateWrapper(const FSc
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_94_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_94_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessListFunctions_Parms \
 { \
 	FCloudScriptListFunctionsResult result; \
@@ -183,7 +183,7 @@ static inline void FDelegateOnSuccessListFunctions_DelegateWrapper(const FScript
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_78_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_78_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessExecuteFunction_Parms \
 { \
 	FCloudScriptExecuteFunctionResult result; \
@@ -198,7 +198,7 @@ static inline void FDelegateOnSuccessExecuteFunction_DelegateWrapper(const FScri
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_62_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_62_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnSuccessExecuteEntityCloudScript_Parms \
 { \
 	FCloudScriptExecuteCloudScriptResult result; \
@@ -213,7 +213,7 @@ static inline void FDelegateOnSuccessExecuteEntityCloudScript_DelegateWrapper(co
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_32_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_32_DELEGATE \
 struct PlayFabCloudScriptAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -228,7 +228,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_24_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabCloudScriptRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -245,8 +245,8 @@ static inline void FOnPlayFabCloudScriptRequestCompleted_DelegateWrapper(const F
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperUnregisterFunction); \
 	DECLARE_FUNCTION(execUnregisterFunction); \
@@ -274,7 +274,7 @@ static inline void FOnPlayFabCloudScriptRequestCompleted_DelegateWrapper(const F
 	DECLARE_FUNCTION(execExecuteEntityCloudScript);
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperUnregisterFunction); \
 	DECLARE_FUNCTION(execUnregisterFunction); \
@@ -302,7 +302,7 @@ static inline void FOnPlayFabCloudScriptRequestCompleted_DelegateWrapper(const F
 	DECLARE_FUNCTION(execExecuteEntityCloudScript);
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabCloudScriptAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabCloudScriptAPI_Statics; \
@@ -311,7 +311,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabCloudScriptAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabCloudScriptAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabCloudScriptAPI_Statics; \
@@ -320,7 +320,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabCloudScriptAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabCloudScriptAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabCloudScriptAPI) \
@@ -333,7 +333,7 @@ private: \
 public:
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabCloudScriptAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -346,33 +346,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabCloudScriptAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabCloudScriptAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabCloudScriptAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabCloudScriptAPI, ResponseJsonObj); }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_26_PROLOG
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_26_PROLOG
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_SPARSE_DATA \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabCloudScriptAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -380,7 +380,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabCloudScriptAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabCloudScriptAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

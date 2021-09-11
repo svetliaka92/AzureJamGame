@@ -57,7 +57,7 @@ struct FGroupsAcceptGroupApplicationRequest;
 #endif
 #define PLAYFAB_PlayFabGroupsAPI_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_374_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_374_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessUpdateRole_Parms \
 { \
 	FGroupsUpdateGroupRoleResponse result; \
@@ -72,7 +72,7 @@ static inline void FDelegateOnSuccessUpdateRole_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_361_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_361_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessUpdateGroup_Parms \
 { \
 	FGroupsUpdateGroupResponse result; \
@@ -87,7 +87,7 @@ static inline void FDelegateOnSuccessUpdateGroup_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_348_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_348_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessUnblockEntity_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -102,7 +102,7 @@ static inline void FDelegateOnSuccessUnblockEntity_DelegateWrapper(const FScript
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_335_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_335_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessRemoveMembers_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -117,7 +117,7 @@ static inline void FDelegateOnSuccessRemoveMembers_DelegateWrapper(const FScript
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_322_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_322_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessRemoveGroupInvitation_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -132,7 +132,7 @@ static inline void FDelegateOnSuccessRemoveGroupInvitation_DelegateWrapper(const
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_309_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_309_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessRemoveGroupApplication_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -147,7 +147,7 @@ static inline void FDelegateOnSuccessRemoveGroupApplication_DelegateWrapper(cons
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_296_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_296_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListMembershipOpportunities_Parms \
 { \
 	FGroupsListMembershipOpportunitiesResponse result; \
@@ -162,7 +162,7 @@ static inline void FDelegateOnSuccessListMembershipOpportunities_DelegateWrapper
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_283_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_283_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListMembership_Parms \
 { \
 	FGroupsListMembershipResponse result; \
@@ -177,7 +177,7 @@ static inline void FDelegateOnSuccessListMembership_DelegateWrapper(const FScrip
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_270_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_270_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListGroupMembers_Parms \
 { \
 	FGroupsListGroupMembersResponse result; \
@@ -192,7 +192,7 @@ static inline void FDelegateOnSuccessListGroupMembers_DelegateWrapper(const FScr
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_257_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_257_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListGroupInvitations_Parms \
 { \
 	FGroupsListGroupInvitationsResponse result; \
@@ -207,7 +207,7 @@ static inline void FDelegateOnSuccessListGroupInvitations_DelegateWrapper(const 
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_244_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_244_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListGroupBlocks_Parms \
 { \
 	FGroupsListGroupBlocksResponse result; \
@@ -222,7 +222,7 @@ static inline void FDelegateOnSuccessListGroupBlocks_DelegateWrapper(const FScri
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_231_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_231_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessListGroupApplications_Parms \
 { \
 	FGroupsListGroupApplicationsResponse result; \
@@ -237,7 +237,7 @@ static inline void FDelegateOnSuccessListGroupApplications_DelegateWrapper(const
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_218_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_218_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessIsMember_Parms \
 { \
 	FGroupsIsMemberResponse result; \
@@ -252,7 +252,7 @@ static inline void FDelegateOnSuccessIsMember_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_205_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_205_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessInviteToGroup_Parms \
 { \
 	FGroupsInviteToGroupResponse result; \
@@ -267,7 +267,7 @@ static inline void FDelegateOnSuccessInviteToGroup_DelegateWrapper(const FScript
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_192_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_192_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessGetGroup_Parms \
 { \
 	FGroupsGetGroupResponse result; \
@@ -282,7 +282,7 @@ static inline void FDelegateOnSuccessGetGroup_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_179_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_179_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessDeleteRole_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -297,7 +297,7 @@ static inline void FDelegateOnSuccessDeleteRole_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_166_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_166_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessDeleteGroup_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -312,7 +312,7 @@ static inline void FDelegateOnSuccessDeleteGroup_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_153_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_153_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessCreateRole_Parms \
 { \
 	FGroupsCreateGroupRoleResponse result; \
@@ -327,7 +327,7 @@ static inline void FDelegateOnSuccessCreateRole_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_140_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_140_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessCreateGroup_Parms \
 { \
 	FGroupsCreateGroupResponse result; \
@@ -342,7 +342,7 @@ static inline void FDelegateOnSuccessCreateGroup_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_127_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_127_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessChangeMemberRole_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -357,7 +357,7 @@ static inline void FDelegateOnSuccessChangeMemberRole_DelegateWrapper(const FScr
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_114_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_114_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessBlockEntity_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -372,7 +372,7 @@ static inline void FDelegateOnSuccessBlockEntity_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_101_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_101_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessApplyToGroup_Parms \
 { \
 	FGroupsApplyToGroupResponse result; \
@@ -387,7 +387,7 @@ static inline void FDelegateOnSuccessApplyToGroup_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_88_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_88_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessAddMembers_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -402,7 +402,7 @@ static inline void FDelegateOnSuccessAddMembers_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_75_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_75_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessAcceptGroupInvitation_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -417,7 +417,7 @@ static inline void FDelegateOnSuccessAcceptGroupInvitation_DelegateWrapper(const
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_62_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_62_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnSuccessAcceptGroupApplication_Parms \
 { \
 	FGroupsEmptyResponse result; \
@@ -432,7 +432,7 @@ static inline void FDelegateOnSuccessAcceptGroupApplication_DelegateWrapper(cons
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_32_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_32_DELEGATE \
 struct PlayFabGroupsAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -447,7 +447,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_24_DELEGATE \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabGroupsRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -464,8 +464,8 @@ static inline void FOnPlayFabGroupsRequestCompleted_DelegateWrapper(const FMulti
 }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperUpdateRole); \
 	DECLARE_FUNCTION(execUpdateRole); \
@@ -519,7 +519,7 @@ static inline void FOnPlayFabGroupsRequestCompleted_DelegateWrapper(const FMulti
 	DECLARE_FUNCTION(execAcceptGroupApplication);
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperUpdateRole); \
 	DECLARE_FUNCTION(execUpdateRole); \
@@ -573,7 +573,7 @@ static inline void FOnPlayFabGroupsRequestCompleted_DelegateWrapper(const FMulti
 	DECLARE_FUNCTION(execAcceptGroupApplication);
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabGroupsAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabGroupsAPI_Statics; \
@@ -582,7 +582,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabGroupsAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabGroupsAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabGroupsAPI_Statics; \
@@ -591,7 +591,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabGroupsAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabGroupsAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabGroupsAPI) \
@@ -604,7 +604,7 @@ private: \
 public:
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabGroupsAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -617,33 +617,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabGroupsAPI)
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabGroupsAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabGroupsAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabGroupsAPI, ResponseJsonObj); }
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_26_PROLOG
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_26_PROLOG
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_SPARSE_DATA \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabGroupsAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -651,7 +651,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabGroupsAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabGroupsAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

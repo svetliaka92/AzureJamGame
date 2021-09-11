@@ -1,56 +1,56 @@
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCpp\Definitions.PlayFabCpp.h
-C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCpp/Private/Core/PlayFabAdminAPI.cpp
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabAdminAPI.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabError.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabAdminDataModels.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCppBaseModel.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/PrettyJsonPrintPolicy.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/JsonPrintPolicy.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabAuthenticationContext.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptInterface.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/SerializedPropertyScope.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImage.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNetTypes.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LazyObjectPtr.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PersistentObjectPtr.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/PropertyPortFlags.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyTag.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPtr.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPath.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/EnumProperty.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabAuthenticationContext.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/CondensedJsonPrintPolicy.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabSettings.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpRequest.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpResponse.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabResultHandler.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAPISettings.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Http.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\PlatformHttp.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Windows/WindowsPlatformHttp.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform/GenericPlatformHttp.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\PlayFab.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/StrongObjectPtr.h
-C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCpp/Private/Core/PlayFabAdminDataModels.cpp
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabJsonHelpers.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCpp\Definitions.PlayFabCpp.h
+C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCpp/Private/Core/PlayFabAdminAPI.cpp
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabAdminAPI.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabError.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabAdminDataModels.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCppBaseModel.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/PrettyJsonPrintPolicy.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/JsonPrintPolicy.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabAuthenticationContext.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptInterface.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/SerializedPropertyScope.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImage.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNetTypes.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LazyObjectPtr.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PersistentObjectPtr.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/PropertyPortFlags.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyTag.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPtr.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPath.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/EnumProperty.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabAuthenticationContext.generated.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/CondensedJsonPrintPolicy.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabSettings.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpRequest.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpBase.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpResponse.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabResultHandler.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAPISettings.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Http.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\PlatformHttp.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Windows/WindowsPlatformHttp.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform/GenericPlatformHttp.h
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\PlayFab.h
+C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/StrongObjectPtr.h
+C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCpp/Private/Core/PlayFabAdminDataModels.cpp
+C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabJsonHelpers.h

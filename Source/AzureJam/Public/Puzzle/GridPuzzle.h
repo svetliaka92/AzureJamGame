@@ -13,6 +13,7 @@ class AZUREJAM_API AGridPuzzle : public AActor
 public:	
 	AGridPuzzle();
 
+	FVector GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex);
 	APuzzleNode* GetNextNode(const int32 InCoordX, const int32 InCoordY, const int32 InNodePointIndex) const;
 
 protected:

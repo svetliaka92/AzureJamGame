@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabRequestCommon_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabRequestCommon_h_17_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabRequestCommon_h_17_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPlayFabRequestCommon_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FPlayFabRequestCommon>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabRequestCommon_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabRequestCommon_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

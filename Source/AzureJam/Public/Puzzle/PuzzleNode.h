@@ -19,7 +19,7 @@ public:
 	APuzzleNode();
 
 	UPROPERTY(EditAnywhere)
-		USceneComponent* Root;
+	USceneComponent* Root;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* Mesh;

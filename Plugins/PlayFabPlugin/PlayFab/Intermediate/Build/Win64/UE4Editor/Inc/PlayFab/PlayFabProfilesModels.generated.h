@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabProfilesModels_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_236_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_236_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetEntityProfilePolicyResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetEntityProfilePolicyResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_220_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_220_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetEntityProfilePolicyRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -29,7 +29,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetEntityProfilePolicyRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_203_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_203_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetProfileLanguageResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -37,7 +37,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetProfileLanguageResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_184_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_184_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetProfileLanguageRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -45,7 +45,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetProfileLan
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetProfileLanguageRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_173_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_173_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetGlobalPolicyResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -53,7 +53,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetProfileLan
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetGlobalPolicyResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_160_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_160_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesSetGlobalPolicyRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -61,7 +61,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetGlobalPoli
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetGlobalPolicyRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_143_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_143_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetTitlePlayersFromMasterPlayerAccountIdsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -69,7 +69,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesSetGlobalPoli
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetTitlePlayersFromMasterPlayerAccountIdsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_130_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_130_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetTitlePlayersFromMasterPlayerAccountIdsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -77,7 +77,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetTitlePlaye
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetTitlePlayersFromMasterPlayerAccountIdsRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_119_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_119_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetEntityProfilesResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -85,7 +85,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetTitlePlaye
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProfilesResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_100_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_100_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetEntityProfilesRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -93,7 +93,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProfilesRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_86_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_86_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetEntityProfileResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -101,7 +101,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProfileResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_67_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_67_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetEntityProfileRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -109,7 +109,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProfileRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_50_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_50_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetGlobalPolicyResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -117,7 +117,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetEntityProf
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetGlobalPolicyResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_40_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h_40_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProfilesGetGlobalPolicyRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -126,7 +126,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetGlobalPoli
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FProfilesGetGlobalPolicyRequest>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesModels_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabAuthenticationModels_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_91_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_91_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAuthenticationValidateEntityTokenResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationValidateEntityTokenResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_78_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_78_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAuthenticationValidateEntityTokenRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -29,7 +29,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationValidat
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationValidateEntityTokenRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_61_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_61_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAuthenticationGetEntityTokenResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -37,7 +37,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationValidat
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationGetEntityTokenResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_48_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h_48_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAuthenticationGetEntityTokenRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -46,7 +46,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationGetEnti
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FAuthenticationGetEntityTokenRequest>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabAuthenticationModels_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabDataModels_generated_h
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_294_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_294_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataSetObjectsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataSetObjectsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_271_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_271_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataSetObjectsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -29,7 +29,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataSetObjectsRespons
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataSetObjectsRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_248_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_248_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataGetObjectsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -37,7 +37,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataSetObjectsRequest
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetObjectsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_229_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_229_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataGetObjectsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -45,7 +45,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetObjectsRespons
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetObjectsRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_207_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_207_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataInitiateFileUploadsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -53,7 +53,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetObjectsRequest
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataInitiateFileUploadsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_185_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_185_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataInitiateFileUploadsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -61,7 +61,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataInitiateFileUploa
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataInitiateFileUploadsRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_165_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_165_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataGetFilesResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -69,7 +69,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataInitiateFileUploa
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetFilesResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_152_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_152_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataGetFilesRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -77,7 +77,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetFilesResponse>
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetFilesRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_131_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_131_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataFinalizeFileUploadsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -85,7 +85,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataGetFilesRequest>(
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataFinalizeFileUploadsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_112_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_112_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataFinalizeFileUploadsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -93,7 +93,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataFinalizeFileUploa
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataFinalizeFileUploadsRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_95_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_95_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataDeleteFilesResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -101,7 +101,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataFinalizeFileUploa
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataDeleteFilesResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_73_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_73_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataDeleteFilesRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -109,7 +109,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataDeleteFilesRespon
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataDeleteFilesRequest>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_59_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_59_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataAbortFileUploadsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -117,7 +117,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataDeleteFilesReques
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataAbortFileUploadsResponse>();
 
-#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_37_GENERATED_BODY \
+#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h_37_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDataAbortFileUploadsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -126,7 +126,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataAbortFileUploadsR
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FDataAbortFileUploadsRequest>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h
+#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabDataModels_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
