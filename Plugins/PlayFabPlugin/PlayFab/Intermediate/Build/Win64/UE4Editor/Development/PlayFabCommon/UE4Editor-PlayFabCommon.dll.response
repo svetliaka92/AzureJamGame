@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:C:\UE\UE_4.27SourceBuild\Engine\Build\Windows\Resources\Default-Win64.manifest
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -33,17 +33,17 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Intermediate\Build\Win64\AzureJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Module.PlayFabCommon.cpp.obj"
 "C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Module.PlayFabCommon.gen.cpp.obj"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Settings\UE4Editor-Settings.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\HTTP\UE4Editor-HTTP.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\Json\UE4Editor-Json.lib"
-"C:\UE\UE_4.27SourceBuild\Engine\Intermediate\Build\Win64\UE4Editor\Development\JsonUtilities\UE4Editor-JsonUtilities.lib"
+"C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Default.rc2.res"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Settings\UE4Editor-Settings.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\HTTP\UE4Editor-HTTP.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Json\UE4Editor-Json.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\JsonUtilities\UE4Editor-JsonUtilities.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

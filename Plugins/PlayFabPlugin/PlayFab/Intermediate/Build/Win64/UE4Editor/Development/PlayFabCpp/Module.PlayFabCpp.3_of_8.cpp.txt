@@ -2,39 +2,39 @@ C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFab
 C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCpp/Private/Core/PlayFabClientDataModels.cpp
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabClientDataModels.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCppBaseModel.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\JsonGlobals.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Policies/PrettyJsonPrintPolicy.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Policies/JsonPrintPolicy.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/PrettyJsonPrintPolicy.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/JsonPrintPolicy.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabAuthenticationContext.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptInterface.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\Serialization/SerializedPropertyScope.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Core\Public\Serialization/MemoryImage.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Serialization/SerializedPropertyScope.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImage.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNetTypes.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/LazyObjectPtr.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/PersistentObjectPtr.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Core\Public\UObject/PropertyPortFlags.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyTag.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPtr.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPath.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/EnumProperty.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNetTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/LazyObjectPtr.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PersistentObjectPtr.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/PropertyPortFlags.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyTag.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPtr.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SoftObjectPath.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/UndefineUPropertyMacros.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/DefineUPropertyMacros.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/EnumProperty.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabAuthenticationContext.generated.h
-C:\UE\UE_4.27SourceBuild\Engine\Source\Runtime\Json\Public\Policies/CondensedJsonPrintPolicy.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Json\Public\Policies/CondensedJsonPrintPolicy.h
 C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCpp\Public\Core/PlayFabJsonHelpers.h
