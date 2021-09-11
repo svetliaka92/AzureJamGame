@@ -18,6 +18,11 @@ AGridPuzzle::AGridPuzzle()
 
 void AGridPuzzle::SetNodeGrid(TArray<APuzzleNode*> InNodes)
 {
+	if (InNodes.Num() <= 0)
+	{
+		return;
+	}
+
 	// reorder the InNodex array into a 2D array
 	for (int32 i = 0; i < GridSizeX; ++i)
 	{
@@ -81,16 +86,16 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 			BottomDir = FVector::ZeroVector;
 			break;
 		case EDirection::Forward:
-			BottomDir = Node->GetActorForwardVector();
+			BottomDir = NodePoint->GetActorForwardVector();
 			break;
 		case EDirection::Right:
-			BottomDir = Node->GetActorRightVector();
+			BottomDir = NodePoint->GetActorRightVector();
 			break;
 		case EDirection::Back:
-			BottomDir = -Node->GetActorForwardVector();
+			BottomDir = -NodePoint->GetActorForwardVector();
 			break;
 		case EDirection::Left:
-			BottomDir = -Node->GetActorRightVector();
+			BottomDir = -NodePoint->GetActorRightVector();
 			break;
 	}
 
@@ -103,16 +108,16 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 				TopDir = FVector::ZeroVector;
 				break;
 			case EDirection::Forward:
-				TopDir = Node->GetActorForwardVector();
+				TopDir = NodePoint->GetActorForwardVector();
 				break;
 			case EDirection::Right:
-				TopDir = Node->GetActorRightVector();
+				TopDir = NodePoint->GetActorRightVector();
 				break;
 			case EDirection::Back:
-				TopDir = -Node->GetActorForwardVector();
+				TopDir = -NodePoint->GetActorForwardVector();
 				break;
 			case EDirection::Left:
-				TopDir = -Node->GetActorRightVector();
+				TopDir = -NodePoint->GetActorRightVector();
 				break;
 		}
 	}
@@ -127,6 +132,18 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 
 	NextNode = GetNodeAtCoordinate(NextNodeCoords.X, NextNodeCoords.Y);
 
+	if (Node)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Node: %s"), *Node->GetName());
+		FString NextNodeDir = StaticEnum<EDirection>()->GetValueAsString(Node->GetBottomDirectionAtIndex(InNodePointIndex));
+		UE_LOG(LogTemp, Warning, TEXT("Direction to next node: %s"), *NextNodeDir);
+	}
+
+	if (NextNode)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Next node: %s"), *NextNode->GetName());
+	}
+	
 	return NextNode;
 }
 
