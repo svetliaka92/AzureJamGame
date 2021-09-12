@@ -37,6 +37,34 @@ void AGridPuzzle::SetNodeGrid(TArray<APuzzleNode*> InNodes)
 	TestNodeDirection();
 }
 
+bool AGridPuzzle::HasVisitedNode(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
+{
+	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
+	if (IsValid(Current))
+	{
+		APuzzleNodePoint* NodePoint = Current->GetPointAtIndex(CurrentPointIndex);
+		if (NodePoint)
+		{
+			return NodePoint->bVisited;
+		}
+	}
+
+	return false;
+}
+
+void AGridPuzzle::OnNodePointVisit(int32 CurrentX, int32 CurrentY, int32 CurrentIndex)
+{
+	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
+	if (IsValid(Current))
+	{
+		APuzzleNodePoint* NodePoint = Current->GetPointAtIndex(CurrentIndex);
+		if (NodePoint)
+		{
+			NodePoint->bVisited = true;
+		}
+	}
+}
+
 FVector AGridPuzzle::GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
 {
 	FVector NextLocation = FVector(100.f, 100.f, 100.f);

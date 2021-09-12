@@ -8,4 +8,6 @@ UCLASS()
 class AZUREJAM_API APuzzleNodePoint : public AActor
 {
 	GENERATED_BODY()
+public:
+	bool bVisited = false;
 };

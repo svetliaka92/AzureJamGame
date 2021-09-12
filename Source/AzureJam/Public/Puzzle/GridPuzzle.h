@@ -16,6 +16,9 @@ public:
 	FVector GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex);
 	APuzzleNode* GetNextNode(const int32 InCoordX, const int32 InCoordY, const int32 InNodePointIndex) const;
 
+	bool HasVisitedNode(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex);
+	void OnNodePointVisit(int32 CurrentX, int32 CurrentY, int32 CurrentIndex);
+
 protected:
 	UFUNCTION(BlueprintCallable)
 	void SetNodeGrid(TArray<APuzzleNode*> InNodes);
