@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Puzzle/GridPuzzle.h"
 #include "PuzzleOrb.generated.h"
 
 UCLASS()
@@ -15,4 +16,6 @@ public:
 	// Sets default values for this pawn's properties
 	APuzzleOrb();
 
+	UPROPERTY(EditAnywhere)
+	AGridPuzzle* Puzzle;
 };

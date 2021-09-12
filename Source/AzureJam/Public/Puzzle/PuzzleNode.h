@@ -55,6 +55,8 @@ public:
 	bool bActive = true;
 	bool bInteractable = true;
 
+	void LockRedirectors(bool bFlag);
+
 protected:
 	virtual void BeginPlay() override;
 

@@ -21,12 +21,16 @@ void APuzzleNode::BeginPlay()
 
 	if (!bHasTopCollider)
 	{
-		//TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 
 	if (!bActive)
 	{
 		Mesh->SetVisibility(false);
+		Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		BottomCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 }
 
@@ -76,8 +80,18 @@ void APuzzleNode::OnCompClicked(UPrimitiveComponent* Comp)
 	OnComponentHit(Comp);
 }
 
+void APuzzleNode::LockRedirectors(bool bFlag)
+{
+	bInteractable = !bFlag;
+}
+
 void APuzzleNode::OnComponentHit(UPrimitiveComponent* HitComponent)
 {
+	if (!bInteractable)
+	{
+		return;
+	}
+
 	if (!IsValid(HitComponent))
 	{
 		return;

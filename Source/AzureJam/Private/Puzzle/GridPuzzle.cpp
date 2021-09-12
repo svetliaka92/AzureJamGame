@@ -1,6 +1,7 @@
 #include "Puzzle/GridPuzzle.h"
 #include "Puzzle/PuzzleNodePoint.h"
 #include "Puzzle/EDirection.h"
+#include "StartTestButton.h"
 
 AGridPuzzle::AGridPuzzle()
 {
@@ -14,6 +15,16 @@ AGridPuzzle::AGridPuzzle()
 	DirToIndexLookup.Add(FVector2D(-1, 0), 2);
 	DirToIndexLookup.Add(FVector2D(-1, 1), 2);
 	DirToIndexLookup.Add(FVector2D(0, 1), 3);
+}
+
+void AGridPuzzle::BeginPlay()
+{
+	Super::BeginPlay();
+
+	if (Nodes.Num() > 0)
+	{
+		SetNodeGrid(Nodes);
+	}
 }
 
 void AGridPuzzle::SetNodeGrid(TArray<APuzzleNode*> InNodes)
@@ -31,10 +42,71 @@ void AGridPuzzle::SetNodeGrid(TArray<APuzzleNode*> InNodes)
 		{
 			NodeGrid[i].Add(InNodes[j + i * GridSizeY]);
 			NodeGrid[i][j]->SetCoordinates(i, j);
+			NodeGrid[i][j]->SetActorLocation(FVector(i * DistanceBetweenNodes, j * DistanceBetweenNodes, 0));
 		}
 	}
 
 	TestNodeDirection();
+}
+
+APuzzleNode* AGridPuzzle::GetStartNode()
+{
+	return StartNode;
+}
+
+void AGridPuzzle::StartTest()
+{
+	// lock nodes
+	// lock test button
+	UE_LOG(LogTemp, Warning, TEXT("Starting test"));
+	for (APuzzleNode* Node : Nodes)
+	{
+		Node->LockRedirectors(true);
+	}
+
+	if (StartButton)
+	{
+		StartButton->LockButton(true);
+	}
+
+	if (OnTestStart.IsBound())
+	{
+		OnTestStart.Broadcast();
+	}
+}
+
+void AGridPuzzle::CompletePuzzle()
+{
+	// keep puzzle blocked
+}
+
+void AGridPuzzle::FailPuzzle()
+{
+	// unlock nodes
+	// unlock test button
+	for (APuzzleNode* Node : Nodes)
+	{
+		Node->LockRedirectors(false);
+	}
+
+	if (StartButton)
+	{
+		StartButton->LockButton(false);
+	}
+}
+
+bool AGridPuzzle::IsEndNode(int32 CurrentX, int32 CurrentY)
+{
+	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
+	if (IsValid(Current))
+	{
+		if (Current->GetCoordinates() == EndNode->GetCoordinates())
+		{
+			return true;
+		}
+	}
+
+	return false;
 }
 
 bool AGridPuzzle::HasVisitedNode(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
@@ -63,6 +135,22 @@ void AGridPuzzle::OnNodePointVisit(int32 CurrentX, int32 CurrentY, int32 Current
 			NodePoint->bVisited = true;
 		}
 	}
+}
+
+int32 AGridPuzzle::GetNextNodePointIndex(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
+{
+	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
+	APuzzleNode* Next = GetNextNode(CurrentX, CurrentY, CurrentPointIndex);
+
+	if (Current && Next)
+	{
+		FVector2D Dir = FVector2D(Next->GetCoordinates().X - Current->GetCoordinates().X,
+								  Next->GetCoordinates().Y - Current->GetCoordinates().Y);
+
+		return GetNodePointIndexFromDirection(Dir);
+	}
+
+	return -1;
 }
 
 FVector AGridPuzzle::GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, int32 CurrentPointIndex)
@@ -208,6 +296,6 @@ int32 AGridPuzzle::GetNodePointIndexFromDirection(FVector2D Dir)
 
 void AGridPuzzle::TestNodeDirection()
 {
-	FVector Dir = GetNextNodePointLocation(1, 1, 1);
+	FVector Dir = GetNextNodePointLocation(0, 2, 0);
 	UE_LOG(LogTemp, Warning, TEXT("Next node location: %s"), *Dir.ToCompactString());
 }

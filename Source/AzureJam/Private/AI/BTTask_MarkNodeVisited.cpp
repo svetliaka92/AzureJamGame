@@ -21,6 +21,7 @@ EBTNodeResult::Type UBTTask_MarkNodeVisited::ExecuteTask(UBehaviorTreeComponent&
 
 	// get blackboard key for current node
 	// tell the AI controller to tell the puzzle to mark the puzzle node point as visited
+	Controller->VisitNode();
 
 	return EBTNodeResult::Succeeded;
 }

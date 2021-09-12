@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PlayFabCommon-0013.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UnrealProjects\AzureJam\Intermediate\Build\Win64\AzureJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Module.PlayFabCommon.cpp.obj"
+"C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Module.PlayFabCommon.gen.cpp.obj"
+"C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Default.rc2.res"
+/OUT:"C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\UE4Editor-PlayFabCommon-0013.lib"

@@ -3,6 +3,7 @@
 
 #include "PlayerCharacter.h"
 #include "Puzzle/PuzzleNode.h"
+#include "StartTestButton.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -68,7 +69,15 @@ void APlayerCharacter::CheckForTarget()
 		}
 		else
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Could not cast actor."));
+			AStartTestButton* Button = Cast<AStartTestButton>(HitInfo.GetActor());
+			if (Button)
+			{
+				Button->Interact();
+			}
+			else
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Could not cast actor."));
+			}
 		}
 	}
 	else
