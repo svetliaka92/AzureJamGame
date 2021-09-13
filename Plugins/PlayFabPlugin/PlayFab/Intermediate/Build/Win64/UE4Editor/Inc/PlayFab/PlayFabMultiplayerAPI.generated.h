@@ -121,7 +121,7 @@ struct FMultiplayerCancelAllMatchmakingTicketsForPlayerRequest;
 #endif
 #define PLAYFAB_PlayFabMultiplayerAPI_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_875_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_875_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUploadCertificate_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -136,7 +136,7 @@ static inline void FDelegateOnSuccessUploadCertificate_DelegateWrapper(const FSc
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_862_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_862_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUpdateBuildRegions_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -151,7 +151,7 @@ static inline void FDelegateOnSuccessUpdateBuildRegions_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_849_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_849_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUpdateBuildRegion_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -166,7 +166,7 @@ static inline void FDelegateOnSuccessUpdateBuildRegion_DelegateWrapper(const FSc
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_836_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_836_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUpdateBuildName_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -181,7 +181,7 @@ static inline void FDelegateOnSuccessUpdateBuildName_DelegateWrapper(const FScri
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_823_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_823_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUpdateBuildAlias_Parms \
 { \
 	FMultiplayerBuildAliasDetailsResponse result; \
@@ -196,7 +196,7 @@ static inline void FDelegateOnSuccessUpdateBuildAlias_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_810_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_810_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessUntagContainerImage_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -211,7 +211,7 @@ static inline void FDelegateOnSuccessUntagContainerImage_DelegateWrapper(const F
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_797_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_797_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessShutdownMultiplayerServer_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -226,7 +226,7 @@ static inline void FDelegateOnSuccessShutdownMultiplayerServer_DelegateWrapper(c
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_784_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_784_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessRolloverContainerRegistryCredentials_Parms \
 { \
 	FMultiplayerRolloverContainerRegistryCredentialsResponse result; \
@@ -241,7 +241,7 @@ static inline void FDelegateOnSuccessRolloverContainerRegistryCredentials_Delega
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_768_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_768_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessRequestMultiplayerServer_Parms \
 { \
 	FMultiplayerRequestMultiplayerServerResponse result; \
@@ -256,7 +256,7 @@ static inline void FDelegateOnSuccessRequestMultiplayerServer_DelegateWrapper(co
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_755_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_755_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListVirtualMachineSummaries_Parms \
 { \
 	FMultiplayerListVirtualMachineSummariesResponse result; \
@@ -271,7 +271,7 @@ static inline void FDelegateOnSuccessListVirtualMachineSummaries_DelegateWrapper
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_742_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_742_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListTitleMultiplayerServersQuotaChanges_Parms \
 { \
 	FMultiplayerListTitleMultiplayerServersQuotaChangesResponse result; \
@@ -286,7 +286,7 @@ static inline void FDelegateOnSuccessListTitleMultiplayerServersQuotaChanges_Del
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_726_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_726_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListQosServersForTitle_Parms \
 { \
 	FMultiplayerListQosServersForTitleResponse result; \
@@ -301,7 +301,7 @@ static inline void FDelegateOnSuccessListQosServersForTitle_DelegateWrapper(cons
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_713_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_713_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListPartyQosServers_Parms \
 { \
 	FMultiplayerListPartyQosServersResponse result; \
@@ -316,7 +316,7 @@ static inline void FDelegateOnSuccessListPartyQosServers_DelegateWrapper(const F
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_700_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_700_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListMultiplayerServers_Parms \
 { \
 	FMultiplayerListMultiplayerServersResponse result; \
@@ -331,7 +331,7 @@ static inline void FDelegateOnSuccessListMultiplayerServers_DelegateWrapper(cons
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_687_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_687_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListContainerImageTags_Parms \
 { \
 	FMultiplayerListContainerImageTagsResponse result; \
@@ -346,7 +346,7 @@ static inline void FDelegateOnSuccessListContainerImageTags_DelegateWrapper(cons
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_674_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_674_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListContainerImages_Parms \
 { \
 	FMultiplayerListContainerImagesResponse result; \
@@ -361,7 +361,7 @@ static inline void FDelegateOnSuccessListContainerImages_DelegateWrapper(const F
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_661_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_661_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListCertificateSummaries_Parms \
 { \
 	FMultiplayerListCertificateSummariesResponse result; \
@@ -376,7 +376,7 @@ static inline void FDelegateOnSuccessListCertificateSummaries_DelegateWrapper(co
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_645_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_645_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListBuildSummariesV2_Parms \
 { \
 	FMultiplayerListBuildSummariesResponse result; \
@@ -391,7 +391,7 @@ static inline void FDelegateOnSuccessListBuildSummariesV2_DelegateWrapper(const 
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_629_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_629_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListBuildAliases_Parms \
 { \
 	FMultiplayerListBuildAliasesResponse result; \
@@ -406,7 +406,7 @@ static inline void FDelegateOnSuccessListBuildAliases_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_616_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_616_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListAssetSummaries_Parms \
 { \
 	FMultiplayerListAssetSummariesResponse result; \
@@ -421,7 +421,7 @@ static inline void FDelegateOnSuccessListAssetSummaries_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_603_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_603_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListArchivedMultiplayerServers_Parms \
 { \
 	FMultiplayerListMultiplayerServersResponse result; \
@@ -436,7 +436,7 @@ static inline void FDelegateOnSuccessListArchivedMultiplayerServers_DelegateWrap
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_590_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_590_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetTitleMultiplayerServersQuotas_Parms \
 { \
 	FMultiplayerGetTitleMultiplayerServersQuotasResponse result; \
@@ -451,7 +451,7 @@ static inline void FDelegateOnSuccessGetTitleMultiplayerServersQuotas_DelegateWr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_577_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_577_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetTitleMultiplayerServersQuotaChange_Parms \
 { \
 	FMultiplayerGetTitleMultiplayerServersQuotaChangeResponse result; \
@@ -466,7 +466,7 @@ static inline void FDelegateOnSuccessGetTitleMultiplayerServersQuotaChange_Deleg
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_564_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_564_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetTitleEnabledForMultiplayerServersStatus_Parms \
 { \
 	FMultiplayerGetTitleEnabledForMultiplayerServersStatusResponse result; \
@@ -481,7 +481,7 @@ static inline void FDelegateOnSuccessGetTitleEnabledForMultiplayerServersStatus_
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_551_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_551_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetRemoteLoginEndpoint_Parms \
 { \
 	FMultiplayerGetRemoteLoginEndpointResponse result; \
@@ -496,7 +496,7 @@ static inline void FDelegateOnSuccessGetRemoteLoginEndpoint_DelegateWrapper(cons
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_538_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_538_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetMultiplayerSessionLogsBySessionId_Parms \
 { \
 	FMultiplayerGetMultiplayerServerLogsResponse result; \
@@ -511,7 +511,7 @@ static inline void FDelegateOnSuccessGetMultiplayerSessionLogsBySessionId_Delega
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_525_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_525_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetMultiplayerServerLogs_Parms \
 { \
 	FMultiplayerGetMultiplayerServerLogsResponse result; \
@@ -526,7 +526,7 @@ static inline void FDelegateOnSuccessGetMultiplayerServerLogs_DelegateWrapper(co
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_512_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_512_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetMultiplayerServerDetails_Parms \
 { \
 	FMultiplayerGetMultiplayerServerDetailsResponse result; \
@@ -541,7 +541,7 @@ static inline void FDelegateOnSuccessGetMultiplayerServerDetails_DelegateWrapper
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_499_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_499_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetContainerRegistryCredentials_Parms \
 { \
 	FMultiplayerGetContainerRegistryCredentialsResponse result; \
@@ -556,7 +556,7 @@ static inline void FDelegateOnSuccessGetContainerRegistryCredentials_DelegateWra
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_486_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_486_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetBuildAlias_Parms \
 { \
 	FMultiplayerBuildAliasDetailsResponse result; \
@@ -571,7 +571,7 @@ static inline void FDelegateOnSuccessGetBuildAlias_DelegateWrapper(const FScript
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_473_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_473_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetBuild_Parms \
 { \
 	FMultiplayerGetBuildResponse result; \
@@ -586,7 +586,7 @@ static inline void FDelegateOnSuccessGetBuild_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_457_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_457_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetAssetUploadUrl_Parms \
 { \
 	FMultiplayerGetAssetUploadUrlResponse result; \
@@ -601,7 +601,7 @@ static inline void FDelegateOnSuccessGetAssetUploadUrl_DelegateWrapper(const FSc
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_441_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_441_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetAssetDownloadUrl_Parms \
 { \
 	FMultiplayerGetAssetDownloadUrlResponse result; \
@@ -616,7 +616,7 @@ static inline void FDelegateOnSuccessGetAssetDownloadUrl_DelegateWrapper(const F
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_428_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_428_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessEnableMultiplayerServersForTitle_Parms \
 { \
 	FMultiplayerEnableMultiplayerServersForTitleResponse result; \
@@ -631,7 +631,7 @@ static inline void FDelegateOnSuccessEnableMultiplayerServersForTitle_DelegateWr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_415_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_415_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteRemoteUser_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -646,7 +646,7 @@ static inline void FDelegateOnSuccessDeleteRemoteUser_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_402_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_402_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteContainerImageRepository_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -661,7 +661,7 @@ static inline void FDelegateOnSuccessDeleteContainerImageRepository_DelegateWrap
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_389_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_389_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteCertificate_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -676,7 +676,7 @@ static inline void FDelegateOnSuccessDeleteCertificate_DelegateWrapper(const FSc
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_376_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_376_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteBuildRegion_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -691,7 +691,7 @@ static inline void FDelegateOnSuccessDeleteBuildRegion_DelegateWrapper(const FSc
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_363_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_363_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteBuildAlias_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -706,7 +706,7 @@ static inline void FDelegateOnSuccessDeleteBuildAlias_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_350_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_350_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteBuild_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -721,7 +721,7 @@ static inline void FDelegateOnSuccessDeleteBuild_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_337_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_337_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessDeleteAsset_Parms \
 { \
 	FMultiplayerEmptyResponse result; \
@@ -736,7 +736,7 @@ static inline void FDelegateOnSuccessDeleteAsset_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_324_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_324_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateTitleMultiplayerServersQuotaChange_Parms \
 { \
 	FMultiplayerCreateTitleMultiplayerServersQuotaChangeResponse result; \
@@ -751,7 +751,7 @@ static inline void FDelegateOnSuccessCreateTitleMultiplayerServersQuotaChange_De
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_311_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_311_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateRemoteUser_Parms \
 { \
 	FMultiplayerCreateRemoteUserResponse result; \
@@ -766,7 +766,7 @@ static inline void FDelegateOnSuccessCreateRemoteUser_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_298_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_298_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateBuildWithProcessBasedServer_Parms \
 { \
 	FMultiplayerCreateBuildWithProcessBasedServerResponse result; \
@@ -781,7 +781,7 @@ static inline void FDelegateOnSuccessCreateBuildWithProcessBasedServer_DelegateW
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_285_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_285_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateBuildWithManagedContainer_Parms \
 { \
 	FMultiplayerCreateBuildWithManagedContainerResponse result; \
@@ -796,7 +796,7 @@ static inline void FDelegateOnSuccessCreateBuildWithManagedContainer_DelegateWra
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_272_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_272_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateBuildWithCustomContainer_Parms \
 { \
 	FMultiplayerCreateBuildWithCustomContainerResponse result; \
@@ -811,7 +811,7 @@ static inline void FDelegateOnSuccessCreateBuildWithCustomContainer_DelegateWrap
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_259_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_259_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateBuildAlias_Parms \
 { \
 	FMultiplayerBuildAliasDetailsResponse result; \
@@ -826,7 +826,7 @@ static inline void FDelegateOnSuccessCreateBuildAlias_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_238_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_238_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListServerBackfillTicketsForPlayer_Parms \
 { \
 	FMultiplayerListServerBackfillTicketsForPlayerResult result; \
@@ -841,7 +841,7 @@ static inline void FDelegateOnSuccessListServerBackfillTicketsForPlayer_Delegate
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_225_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_225_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessListMatchmakingTicketsForPlayer_Parms \
 { \
 	FMultiplayerListMatchmakingTicketsForPlayerResult result; \
@@ -856,7 +856,7 @@ static inline void FDelegateOnSuccessListMatchmakingTicketsForPlayer_DelegateWra
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_212_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_212_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessJoinMatchmakingTicket_Parms \
 { \
 	FMultiplayerJoinMatchmakingTicketResult result; \
@@ -871,7 +871,7 @@ static inline void FDelegateOnSuccessJoinMatchmakingTicket_DelegateWrapper(const
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_199_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_199_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetServerBackfillTicket_Parms \
 { \
 	FMultiplayerGetServerBackfillTicketResult result; \
@@ -886,7 +886,7 @@ static inline void FDelegateOnSuccessGetServerBackfillTicket_DelegateWrapper(con
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_186_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_186_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetQueueStatistics_Parms \
 { \
 	FMultiplayerGetQueueStatisticsResult result; \
@@ -901,7 +901,7 @@ static inline void FDelegateOnSuccessGetQueueStatistics_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_173_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_173_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetMatchmakingTicket_Parms \
 { \
 	FMultiplayerGetMatchmakingTicketResult result; \
@@ -916,7 +916,7 @@ static inline void FDelegateOnSuccessGetMatchmakingTicket_DelegateWrapper(const 
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_160_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_160_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessGetMatch_Parms \
 { \
 	FMultiplayerGetMatchResult result; \
@@ -931,7 +931,7 @@ static inline void FDelegateOnSuccessGetMatch_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_144_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_144_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateServerMatchmakingTicket_Parms \
 { \
 	FMultiplayerCreateMatchmakingTicketResult result; \
@@ -946,7 +946,7 @@ static inline void FDelegateOnSuccessCreateServerMatchmakingTicket_DelegateWrapp
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_127_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_127_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateServerBackfillTicket_Parms \
 { \
 	FMultiplayerCreateServerBackfillTicketResult result; \
@@ -961,7 +961,7 @@ static inline void FDelegateOnSuccessCreateServerBackfillTicket_DelegateWrapper(
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_114_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_114_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCreateMatchmakingTicket_Parms \
 { \
 	FMultiplayerCreateMatchmakingTicketResult result; \
@@ -976,7 +976,7 @@ static inline void FDelegateOnSuccessCreateMatchmakingTicket_DelegateWrapper(con
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_101_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_101_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCancelServerBackfillTicket_Parms \
 { \
 	FMultiplayerCancelServerBackfillTicketResult result; \
@@ -991,7 +991,7 @@ static inline void FDelegateOnSuccessCancelServerBackfillTicket_DelegateWrapper(
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_88_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_88_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCancelMatchmakingTicket_Parms \
 { \
 	FMultiplayerCancelMatchmakingTicketResult result; \
@@ -1006,7 +1006,7 @@ static inline void FDelegateOnSuccessCancelMatchmakingTicket_DelegateWrapper(con
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_75_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_75_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCancelAllServerBackfillTicketsForPlayer_Parms \
 { \
 	FMultiplayerCancelAllServerBackfillTicketsForPlayerResult result; \
@@ -1021,7 +1021,7 @@ static inline void FDelegateOnSuccessCancelAllServerBackfillTicketsForPlayer_Del
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_62_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_62_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnSuccessCancelAllMatchmakingTicketsForPlayer_Parms \
 { \
 	FMultiplayerCancelAllMatchmakingTicketsForPlayerResult result; \
@@ -1036,7 +1036,7 @@ static inline void FDelegateOnSuccessCancelAllMatchmakingTicketsForPlayer_Delega
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_32_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_32_DELEGATE \
 struct PlayFabMultiplayerAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -1051,7 +1051,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_24_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabMultiplayerRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -1068,8 +1068,8 @@ static inline void FOnPlayFabMultiplayerRequestCompleted_DelegateWrapper(const F
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperUploadCertificate); \
 	DECLARE_FUNCTION(execUploadCertificate); \
@@ -1195,7 +1195,7 @@ static inline void FOnPlayFabMultiplayerRequestCompleted_DelegateWrapper(const F
 	DECLARE_FUNCTION(execCancelAllMatchmakingTicketsForPlayer);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperUploadCertificate); \
 	DECLARE_FUNCTION(execUploadCertificate); \
@@ -1321,7 +1321,7 @@ static inline void FOnPlayFabMultiplayerRequestCompleted_DelegateWrapper(const F
 	DECLARE_FUNCTION(execCancelAllMatchmakingTicketsForPlayer);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabMultiplayerAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabMultiplayerAPI_Statics; \
@@ -1330,7 +1330,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabMultiplayerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabMultiplayerAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabMultiplayerAPI_Statics; \
@@ -1339,7 +1339,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabMultiplayerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabMultiplayerAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabMultiplayerAPI) \
@@ -1352,7 +1352,7 @@ private: \
 public:
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabMultiplayerAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -1365,33 +1365,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabMultiplayerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabMultiplayerAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabMultiplayerAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabMultiplayerAPI, ResponseJsonObj); }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_26_PROLOG
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_26_PROLOG
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabMultiplayerAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -1399,7 +1399,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabMultiplayerAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMultiplayerAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

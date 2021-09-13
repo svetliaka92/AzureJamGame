@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabLocalizationModels_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h_46_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h_46_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLocalizationGetLanguageListResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FLocalizationGetLanguageListResponse>();
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h_36_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h_36_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLocalizationGetLanguageListRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -30,7 +30,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FLocalizationGetLangua
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FLocalizationGetLanguageListRequest>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabLocalizationModels_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -31,7 +31,7 @@ struct FProfilesGetGlobalPolicyRequest;
 #endif
 #define PLAYFAB_PlayFabProfilesAPI_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_143_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_143_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessSetProfilePolicy_Parms \
 { \
 	FProfilesSetEntityProfilePolicyResponse result; \
@@ -46,7 +46,7 @@ static inline void FDelegateOnSuccessSetProfilePolicy_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_127_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_127_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessSetProfileLanguage_Parms \
 { \
 	FProfilesSetProfileLanguageResponse result; \
@@ -61,7 +61,7 @@ static inline void FDelegateOnSuccessSetProfileLanguage_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_114_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_114_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessSetGlobalPolicy_Parms \
 { \
 	FProfilesSetGlobalPolicyResponse result; \
@@ -76,7 +76,7 @@ static inline void FDelegateOnSuccessSetGlobalPolicy_DelegateWrapper(const FScri
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_101_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_101_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessGetTitlePlayersFromMasterPlayerAccountIds_Parms \
 { \
 	FProfilesGetTitlePlayersFromMasterPlayerAccountIdsResponse result; \
@@ -91,7 +91,7 @@ static inline void FDelegateOnSuccessGetTitlePlayersFromMasterPlayerAccountIds_D
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_88_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_88_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessGetProfiles_Parms \
 { \
 	FProfilesGetEntityProfilesResponse result; \
@@ -106,7 +106,7 @@ static inline void FDelegateOnSuccessGetProfiles_DelegateWrapper(const FScriptDe
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_75_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_75_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessGetProfile_Parms \
 { \
 	FProfilesGetEntityProfileResponse result; \
@@ -121,7 +121,7 @@ static inline void FDelegateOnSuccessGetProfile_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_62_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_62_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnSuccessGetGlobalPolicy_Parms \
 { \
 	FProfilesGetGlobalPolicyResponse result; \
@@ -136,7 +136,7 @@ static inline void FDelegateOnSuccessGetGlobalPolicy_DelegateWrapper(const FScri
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_32_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_32_DELEGATE \
 struct PlayFabProfilesAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -151,7 +151,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_24_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabProfilesRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -168,8 +168,8 @@ static inline void FOnPlayFabProfilesRequestCompleted_DelegateWrapper(const FMul
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperSetProfilePolicy); \
 	DECLARE_FUNCTION(execSetProfilePolicy); \
@@ -187,7 +187,7 @@ static inline void FOnPlayFabProfilesRequestCompleted_DelegateWrapper(const FMul
 	DECLARE_FUNCTION(execGetGlobalPolicy);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperSetProfilePolicy); \
 	DECLARE_FUNCTION(execSetProfilePolicy); \
@@ -205,7 +205,7 @@ static inline void FOnPlayFabProfilesRequestCompleted_DelegateWrapper(const FMul
 	DECLARE_FUNCTION(execGetGlobalPolicy);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabProfilesAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabProfilesAPI_Statics; \
@@ -214,7 +214,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabProfilesAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabProfilesAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabProfilesAPI_Statics; \
@@ -223,7 +223,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabProfilesAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabProfilesAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabProfilesAPI) \
@@ -236,7 +236,7 @@ private: \
 public:
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabProfilesAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -249,33 +249,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabProfilesAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabProfilesAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabProfilesAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabProfilesAPI, ResponseJsonObj); }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_26_PROLOG
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_26_PROLOG
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabProfilesAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -283,7 +283,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabProfilesAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabProfilesAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

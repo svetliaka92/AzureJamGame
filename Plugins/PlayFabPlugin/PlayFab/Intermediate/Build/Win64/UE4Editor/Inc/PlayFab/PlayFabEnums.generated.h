@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PLAYFAB_PlayFabEnums_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEnums_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEnums_h
 
 
 #define FOREACH_ENUM_ETITLEMULTIPLAYERSERVERENABLEDSTATUS(op) \

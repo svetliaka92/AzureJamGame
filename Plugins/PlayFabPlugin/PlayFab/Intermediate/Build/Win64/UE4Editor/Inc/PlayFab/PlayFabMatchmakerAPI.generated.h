@@ -27,7 +27,7 @@ struct FMatchmakerAuthUserRequest;
 #endif
 #define PLAYFAB_PlayFabMatchmakerAPI_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_114_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_114_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnSuccessUserInfo_Parms \
 { \
 	FMatchmakerUserInfoResponse result; \
@@ -42,7 +42,7 @@ static inline void FDelegateOnSuccessUserInfo_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_101_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_101_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnSuccessStartGame_Parms \
 { \
 	FMatchmakerStartGameResponse result; \
@@ -57,7 +57,7 @@ static inline void FDelegateOnSuccessStartGame_DelegateWrapper(const FScriptDele
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_88_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_88_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnSuccessPlayerLeft_Parms \
 { \
 	FMatchmakerPlayerLeftResponse result; \
@@ -72,7 +72,7 @@ static inline void FDelegateOnSuccessPlayerLeft_DelegateWrapper(const FScriptDel
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_75_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_75_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnSuccessPlayerJoined_Parms \
 { \
 	FMatchmakerPlayerJoinedResponse result; \
@@ -87,7 +87,7 @@ static inline void FDelegateOnSuccessPlayerJoined_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_62_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_62_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnSuccessAuthUser_Parms \
 { \
 	FMatchmakerAuthUserResponse result; \
@@ -102,7 +102,7 @@ static inline void FDelegateOnSuccessAuthUser_DelegateWrapper(const FScriptDeleg
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_32_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_32_DELEGATE \
 struct PlayFabMatchmakerAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -117,7 +117,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_24_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabMatchmakerRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -134,8 +134,8 @@ static inline void FOnPlayFabMatchmakerRequestCompleted_DelegateWrapper(const FM
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperUserInfo); \
 	DECLARE_FUNCTION(execUserInfo); \
@@ -149,7 +149,7 @@ static inline void FOnPlayFabMatchmakerRequestCompleted_DelegateWrapper(const FM
 	DECLARE_FUNCTION(execAuthUser);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperUserInfo); \
 	DECLARE_FUNCTION(execUserInfo); \
@@ -163,7 +163,7 @@ static inline void FOnPlayFabMatchmakerRequestCompleted_DelegateWrapper(const FM
 	DECLARE_FUNCTION(execAuthUser);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabMatchmakerAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabMatchmakerAPI_Statics; \
@@ -172,7 +172,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabMatchmakerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabMatchmakerAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabMatchmakerAPI_Statics; \
@@ -181,7 +181,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabMatchmakerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabMatchmakerAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabMatchmakerAPI) \
@@ -194,7 +194,7 @@ private: \
 public:
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabMatchmakerAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -207,33 +207,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabMatchmakerAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabMatchmakerAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabMatchmakerAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabMatchmakerAPI, ResponseJsonObj); }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_26_PROLOG
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_26_PROLOG
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabMatchmakerAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -241,7 +241,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabMatchmakerAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabMatchmakerAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

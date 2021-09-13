@@ -13,14 +13,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabBaseModel_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h_50_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h_50_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPlayFabBaseModel_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FPlayFabBaseModel>();
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h_20_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h_20_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPlayFabError_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -28,7 +28,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FPlayFabBaseModel>();
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FPlayFabError>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabBaseModel_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,12 +1,12 @@
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Definitions.PlayFabCommon.h
-C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommmonUtils.cpp
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonUtils.h
-C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommon.cpp
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommon.h
-C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Developer\Settings\Public\ISettingsModule.h
-C:\UnrealProjects\Engine\UE_4.27\Engine\Source\Developer\Settings\Public\ISettingsSection.h
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
-C:\UnrealProjects\AzureJam\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
-C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommonSettings.cpp
-C:/UnrealProjects/AzureJam/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabRuntimeSettings.cpp
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFabCommon\Definitions.PlayFabCommon.h
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommmonUtils.cpp
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonUtils.h
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommon.cpp
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommon.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Developer\Settings\Public\ISettingsModule.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Developer\Settings\Public\ISettingsSection.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFabCommon/Public/PlayFabRuntimeSettings.h
+C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFabCommon\PlayFabRuntimeSettings.generated.h
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabCommonSettings.cpp
+C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Source/PlayFabCommon/Private/PlayFabRuntimeSettings.cpp

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PLAYFAB_PlayFabEventsModels_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h_54_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h_54_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FEventsWriteEventsResponse_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabResultCommon Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FEventsWriteEventsResponse>();
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h_41_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h_41_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FEventsWriteEventsRequest_Statics; \
 	static class UScriptStruct* StaticStruct(); \
 	typedef FPlayFabRequestCommon Super;
@@ -30,7 +30,7 @@ template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FEventsWriteEventsResp
 template<> PLAYFAB_API UScriptStruct* StaticStruct<struct FEventsWriteEventsRequest>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabEventsModels_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

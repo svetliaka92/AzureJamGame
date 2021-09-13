@@ -38,7 +38,7 @@ struct FExperimentationCreateExclusionGroupRequest;
 #endif
 #define PLAYFAB_PlayFabExperimentationAPI_generated_h
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_218_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_218_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessUpdateExperiment_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -53,7 +53,7 @@ static inline void FDelegateOnSuccessUpdateExperiment_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_205_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_205_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessUpdateExclusionGroup_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -68,7 +68,7 @@ static inline void FDelegateOnSuccessUpdateExclusionGroup_DelegateWrapper(const 
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_192_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_192_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessStopExperiment_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -83,7 +83,7 @@ static inline void FDelegateOnSuccessStopExperiment_DelegateWrapper(const FScrip
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_179_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_179_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessStartExperiment_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -98,7 +98,7 @@ static inline void FDelegateOnSuccessStartExperiment_DelegateWrapper(const FScri
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_166_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_166_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessGetTreatmentAssignment_Parms \
 { \
 	FExperimentationGetTreatmentAssignmentResult result; \
@@ -113,7 +113,7 @@ static inline void FDelegateOnSuccessGetTreatmentAssignment_DelegateWrapper(cons
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_153_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_153_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessGetLatestScorecard_Parms \
 { \
 	FExperimentationGetLatestScorecardResult result; \
@@ -128,7 +128,7 @@ static inline void FDelegateOnSuccessGetLatestScorecard_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_140_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_140_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessGetExperiments_Parms \
 { \
 	FExperimentationGetExperimentsResult result; \
@@ -143,7 +143,7 @@ static inline void FDelegateOnSuccessGetExperiments_DelegateWrapper(const FScrip
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_127_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_127_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessGetExclusionGroupTraffic_Parms \
 { \
 	FExperimentationGetExclusionGroupTrafficResult result; \
@@ -158,7 +158,7 @@ static inline void FDelegateOnSuccessGetExclusionGroupTraffic_DelegateWrapper(co
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_114_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_114_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessGetExclusionGroups_Parms \
 { \
 	FExperimentationGetExclusionGroupsResult result; \
@@ -173,7 +173,7 @@ static inline void FDelegateOnSuccessGetExclusionGroups_DelegateWrapper(const FS
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_101_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_101_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessDeleteExperiment_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -188,7 +188,7 @@ static inline void FDelegateOnSuccessDeleteExperiment_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_88_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_88_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessDeleteExclusionGroup_Parms \
 { \
 	FExperimentationEmptyResponse result; \
@@ -203,7 +203,7 @@ static inline void FDelegateOnSuccessDeleteExclusionGroup_DelegateWrapper(const 
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_75_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_75_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessCreateExperiment_Parms \
 { \
 	FExperimentationCreateExperimentResult result; \
@@ -218,7 +218,7 @@ static inline void FDelegateOnSuccessCreateExperiment_DelegateWrapper(const FScr
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_62_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_62_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnSuccessCreateExclusionGroup_Parms \
 { \
 	FExperimentationCreateExclusionGroupResult result; \
@@ -233,7 +233,7 @@ static inline void FDelegateOnSuccessCreateExclusionGroup_DelegateWrapper(const 
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_32_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_32_DELEGATE \
 struct PlayFabExperimentationAPI_eventDelegateOnFailurePlayFabError_Parms \
 { \
 	FPlayFabError error; \
@@ -248,7 +248,7 @@ static inline void FDelegateOnFailurePlayFabError_DelegateWrapper(const FScriptD
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_24_DELEGATE \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_24_DELEGATE \
 struct _Script_PlayFab_eventOnPlayFabExperimentationRequestCompleted_Parms \
 { \
 	FPlayFabBaseModel response; \
@@ -265,8 +265,8 @@ static inline void FOnPlayFabExperimentationRequestCompleted_DelegateWrapper(con
 }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHelperUpdateExperiment); \
 	DECLARE_FUNCTION(execUpdateExperiment); \
@@ -296,7 +296,7 @@ static inline void FOnPlayFabExperimentationRequestCompleted_DelegateWrapper(con
 	DECLARE_FUNCTION(execCreateExclusionGroup);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHelperUpdateExperiment); \
 	DECLARE_FUNCTION(execUpdateExperiment); \
@@ -326,7 +326,7 @@ static inline void FOnPlayFabExperimentationRequestCompleted_DelegateWrapper(con
 	DECLARE_FUNCTION(execCreateExclusionGroup);
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS_NO_PURE_DECLS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayFabExperimentationAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabExperimentationAPI_Statics; \
@@ -335,7 +335,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabExperimentationAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayFabExperimentationAPI(); \
 	friend struct Z_Construct_UClass_UPlayFabExperimentationAPI_Statics; \
@@ -344,7 +344,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayFabExperimentationAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_STANDARD_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabExperimentationAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabExperimentationAPI) \
@@ -357,7 +357,7 @@ private: \
 public:
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_ENHANCED_CONSTRUCTORS \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayFabExperimentationAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -370,33 +370,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayFabExperimentationAPI)
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CallAuthenticationContext() { return STRUCT_OFFSET(UPlayFabExperimentationAPI, CallAuthenticationContext); } \
 	FORCEINLINE static uint32 __PPO__RequestJsonObj() { return STRUCT_OFFSET(UPlayFabExperimentationAPI, RequestJsonObj); } \
 	FORCEINLINE static uint32 __PPO__ResponseJsonObj() { return STRUCT_OFFSET(UPlayFabExperimentationAPI, ResponseJsonObj); }
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_26_PROLOG
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_GENERATED_BODY_LEGACY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_26_PROLOG
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_STANDARD_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_GENERATED_BODY \
+#define AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS_NO_PURE_DECLS \
-	AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_ENHANCED_CONSTRUCTORS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_PRIVATE_PROPERTY_OFFSET \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_SPARSE_DATA \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_INCLASS_NO_PURE_DECLS \
+	AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h_29_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PlayFabExperimentationAPI."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -404,7 +404,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PLAYFAB_API UClass* StaticClass<class UPlayFabExperimentationAPI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID AzureJam_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h
+#define CURRENT_FILE_ID AzureJamGame_Plugins_PlayFabPlugin_PlayFab_Source_PlayFab_Classes_PlayFabExperimentationAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
