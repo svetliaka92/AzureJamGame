@@ -31,6 +31,30 @@ public:
 	UBoxComponent* TopCollider;
 
 	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* BottomMonitor1;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* BottomMonitor2;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* BottomMonitor3;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* BottomMonitor4;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* TopMonitor1;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* TopMonitor2;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* TopMonitor3;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* TopMonitor4;
+
+	UPROPERTY(EditAnywhere)
 	bool bHasTopCollider;
 
 	UPROPERTY(EditAnywhere)
@@ -56,6 +80,7 @@ public:
 	bool bInteractable = true;
 
 	void LockRedirectors(bool bFlag);
+	void ClearVisited();
 
 protected:
 	virtual void BeginPlay() override;

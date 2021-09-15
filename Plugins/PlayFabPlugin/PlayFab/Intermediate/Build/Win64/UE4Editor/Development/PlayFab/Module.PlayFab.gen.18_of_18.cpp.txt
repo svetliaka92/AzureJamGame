@@ -1,6 +1,0 @@
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Development\PlayFab\Definitions.PlayFab.h
-C:/Users/Svetlin Svilenov/Documents/Unreal Projects/AzureJamGame/Plugins/PlayFabPlugin/PlayFab/Intermediate/Build/Win64/UE4Editor/Inc/PlayFab/PlayFabUtilities.gen.cpp
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Source\PlayFab/Classes/PlayFabUtilities.h
-C:\Users\Svetlin Svilenov\Documents\Unreal Projects\AzureJamGame\Plugins\PlayFabPlugin\PlayFab\Intermediate\Build\Win64\UE4Editor\Inc\PlayFab\PlayFabUtilities.generated.h

@@ -6,7 +6,7 @@
 
 UBTTask_MarkNodeVisited::UBTTask_MarkNodeVisited()
 {
-	NodeName = TEXT("Shoot");
+	NodeName = TEXT("Mark node visited");
 }
 
 EBTNodeResult::Type UBTTask_MarkNodeVisited::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
@@ -21,6 +21,8 @@ EBTNodeResult::Type UBTTask_MarkNodeVisited::ExecuteTask(UBehaviorTreeComponent&
 
 	// get blackboard key for current node
 	// tell the AI controller to tell the puzzle to mark the puzzle node point as visited
+	UE_LOG(LogTemp, Warning, TEXT("BTTask_MarkNodeVisited.cpp ExecuteTask: Calling VisitNode on AI controller..."));
+
 	Controller->VisitNode();
 
 	return EBTNodeResult::Succeeded;

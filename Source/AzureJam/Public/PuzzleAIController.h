@@ -38,9 +38,6 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere)
-	TSubclassOf<APuzzleOrb> OrbClass;
-
 private:
 	bool bTesting;
 

@@ -58,7 +58,7 @@ void AGridPuzzle::StartTest()
 {
 	// lock nodes
 	// lock test button
-	UE_LOG(LogTemp, Warning, TEXT("Starting test"));
+	UE_LOG(LogTemp, Warning, TEXT("GridPuzzle.cpp GetNextNode: Starting test"));
 	for (APuzzleNode* Node : Nodes)
 	{
 		Node->LockRedirectors(true);
@@ -87,6 +87,7 @@ void AGridPuzzle::FailPuzzle()
 	for (APuzzleNode* Node : Nodes)
 	{
 		Node->LockRedirectors(false);
+		Node->ClearVisited();
 	}
 
 	if (StartButton)
@@ -215,6 +216,9 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 			break;
 	}
 
+	BottomDir.X = FMath::RoundToInt(BottomDir.X);
+	BottomDir.Y = FMath::RoundToInt(BottomDir.Y);
+
 	FVector TopDir = FVector();
 	if (Node->bHasTopCollider)
 	{
@@ -237,8 +241,15 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 				break;
 		}
 	}
+
+	TopDir.X = FMath::RoundToInt(TopDir.X);
+	TopDir.Y = FMath::RoundToInt(TopDir.Y);
 	
-	FVector FullDir = BottomDir + TopDir;
+	FVector FullDir = BottomDir;
+	if (Node->bHasTopCollider)
+	{
+		FullDir = BottomDir + TopDir;
+	}
 	FullDir.X = FMath::Clamp(FullDir.X, -1.0f, 1.0f);
 	FullDir.Y = FMath::Clamp(FullDir.Y, -1.0f, 1.0f);
 
@@ -250,14 +261,14 @@ APuzzleNode* AGridPuzzle::GetNextNode(const int32 InCoordX, const int32 InCoordY
 
 	if (Node)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Node: %s"), *Node->GetName());
+		UE_LOG(LogTemp, Warning, TEXT("GridPuzzle.cpp GetNextNode: Node: %s"), *Node->GetName());
 		FString NextNodeDir = StaticEnum<EDirection>()->GetValueAsString(Node->GetBottomDirectionAtIndex(InNodePointIndex));
-		UE_LOG(LogTemp, Warning, TEXT("Direction to next node: %s"), *NextNodeDir);
+		UE_LOG(LogTemp, Warning, TEXT("GridPuzzle.cpp GetNextNode: Direction to next node: %s, vector of direction: %s"), *NextNodeDir, *FullDir.ToCompactString());
 	}
 
 	if (NextNode)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Next node: %s"), *NextNode->GetName());
+		UE_LOG(LogTemp, Warning, TEXT("GridPuzzle.cpp GetNextNode: Next node: %s"), *NextNode->GetName());
 	}
 	
 	return NextNode;
@@ -297,5 +308,5 @@ int32 AGridPuzzle::GetNodePointIndexFromDirection(FVector2D Dir)
 void AGridPuzzle::TestNodeDirection()
 {
 	FVector Dir = GetNextNodePointLocation(0, 2, 0);
-	UE_LOG(LogTemp, Warning, TEXT("Next node location: %s"), *Dir.ToCompactString());
+	UE_LOG(LogTemp, Warning, TEXT("GridPuzzle.cpp GetNextNode: Next node location: %s"), *Dir.ToCompactString());
 }

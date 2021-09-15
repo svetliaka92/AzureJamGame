@@ -15,6 +15,8 @@ void APuzzleAIController::BeginPlay()
 	{
 		RunBehaviorTree(AIBehavior);
 		SetPuzzle(Orb->Puzzle);
+
+		GetBlackboardComponent()->SetValueAsVector("StartLocation", Orb->GetActorLocation());
 	}
 }
 
@@ -23,31 +25,43 @@ void APuzzleAIController::SetPuzzle(AGridPuzzle* InPuzzle)
 	Puzzle = InPuzzle;
 	if (Puzzle)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Puzzle set!"));
+		UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp SetPuzzle: Puzzle set!"));
 		// subscribe to the start puzzle event
 		Puzzle->OnTestStart.AddDynamic(this, &APuzzleAIController::TestPuzzleWithOrb);
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Puzzle not set!"));
+		UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp SetPuzzle: Puzzle not set!"));
 	}
 }
 
 void APuzzleAIController::CompletePuzzle()
 {
 	bTesting = false;
-	UE_LOG(LogTemp, Warning, TEXT("Puzzle done!"));
+	GetBlackboardComponent()->ClearValue("IsTestingPuzzle");
+	UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp CompletePuzzle: Puzzle done!"));
+
+	if (Puzzle)
+	{
+		Puzzle->CompletePuzzle();
+	}
 }
 
 void APuzzleAIController::FailPuzzle()
 {
 	bTesting = false;
-	UE_LOG(LogTemp, Warning, TEXT("Puzzle failed!"));
+	GetBlackboardComponent()->ClearValue("IsTestingPuzzle");
+	UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp FailPuzzle: Puzzle failed!"));
+
+	if (Puzzle)
+	{
+		Puzzle->FailPuzzle();
+	}
 }
 
 void APuzzleAIController::TestPuzzleWithOrb()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Puzzle starting!"));
+	UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp TestPuzzleWithOrb: Puzzle starting!"));
 	if (IsValid(Orb))
 	{
 		CurrentNode = Puzzle->GetStartNode();
@@ -57,18 +71,19 @@ void APuzzleAIController::TestPuzzleWithOrb()
 		int32 Y = CurrentNode->GetCoordinates().Y;
 		int32 Index = CurrentNodePointIndex;
 
-		Puzzle->OnNodePointVisit(X, Y, Index);
-
 		if (CurrentNode)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Current node is set."));
+			UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp TestPuzzleWithOrb: Current node is set, node: %s"), *CurrentNode->GetName());
+			bTesting = true;
+			GetBlackboardComponent()->SetValueAsBool("IsTestingPuzzle", bTesting);
 		}
 		else
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Current node is NOT set."));
+			UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp TestPuzzleWithOrb: Current node is NOT set."));
+			GetBlackboardComponent()->ClearValue("IsTestingPuzzle");
 		}
 
-		bTesting = true;
+		
 
 		//GetBlackboardComponent()->SetValueAsBool("IsTestingPuzzle", true);
 	}
@@ -88,7 +103,7 @@ void APuzzleAIController::UpdateNextLocation()
 {
 	if (!IsValid(CurrentNode))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("UpdateNextLocation: The current node is not valid"));
+		UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp UpdateNextLocation: The current node is not valid"));
 		return;
 	}
 
@@ -98,6 +113,11 @@ void APuzzleAIController::UpdateNextLocation()
 
 	CurrentNode = Puzzle->GetNextNode(X, Y, Index);
 	CurrentNodePointIndex = Puzzle->GetNextNodePointIndex(X, Y, Index);
+
+	if (CurrentNode)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp UpdateNextLocation: Current node is set, node: %s"), *CurrentNode->GetName());
+	}
 }
 
 APuzzleNodePoint* APuzzleAIController::GetNextLocation()
@@ -105,12 +125,12 @@ APuzzleNodePoint* APuzzleAIController::GetNextLocation()
 	APuzzleNodePoint* NextLocation = nullptr;
 	if (!IsValid(CurrentNode))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("GetNextNodePointIndex: The current node is not valid"));
+		UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp GetNextLocation: The current node is not valid"));
 		return NextLocation;
 	}
+	
+	UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp GetNextLocation: Current node is set, node: %s"), *CurrentNode->GetName());
 
-	int32 X = CurrentNode->GetCoordinates().X;
-	int32 Y = CurrentNode->GetCoordinates().Y;
 	int32 Index = CurrentNodePointIndex;
 
 	NextLocation = CurrentNode->GetPointAtIndex(Index);
@@ -122,6 +142,8 @@ void APuzzleAIController::VisitNode()
 {
 	// tell puzzle to mark node point as visited
 	Puzzle->OnNodePointVisit(CurrentNode->GetCoordinates().X, CurrentNode->GetCoordinates().Y, CurrentNodePointIndex);
+	
+	UpdateNextLocation();
 }
 
 bool APuzzleAIController::IsNodeVisited()

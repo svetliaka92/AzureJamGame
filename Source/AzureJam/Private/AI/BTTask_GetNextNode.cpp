@@ -21,17 +21,18 @@ EBTNodeResult::Type UBTTask_GetNextNode::ExecuteTask(UBehaviorTreeComponent& Own
 		return EBTNodeResult::Failed;
 	}
 
-	Controller->UpdateNextLocation();
 	APuzzleNodePoint* NextLocation = Controller->GetNextLocation();
 	if (NextLocation)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Next location: %s"), *NextLocation->GetName());
+		UE_LOG(LogTemp, Warning, TEXT("BTTask_GetNextNode: ExecuteTask: Next location: %s"), *NextLocation->GetName());
 		OwnerComp.GetBlackboardComponent()->SetValueAsObject(GetSelectedBlackboardKey(), NextLocation);
+		return EBTNodeResult::Succeeded;
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Next location is not valid"));
+		UE_LOG(LogTemp, Warning, TEXT("BTTask_GetNextNode: ExecuteTask: Next location is not valid"));
 		OwnerComp.GetBlackboardComponent()->ClearValue(GetSelectedBlackboardKey());
+		return EBTNodeResult::Failed;
 	}
 	
 

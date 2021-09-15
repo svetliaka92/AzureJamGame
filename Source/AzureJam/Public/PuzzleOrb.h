@@ -3,12 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "GameFramework/Character.h"
 #include "Puzzle/GridPuzzle.h"
 #include "PuzzleOrb.generated.h"
 
 UCLASS()
-class AZUREJAM_API APuzzleOrb : public APawn
+class AZUREJAM_API APuzzleOrb : public ACharacter
 {
 	GENERATED_BODY()
 
