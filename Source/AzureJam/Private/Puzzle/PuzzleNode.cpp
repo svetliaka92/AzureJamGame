@@ -48,15 +48,38 @@ void APuzzleNode::BeginPlay()
 		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 		// set the screen material of the top monitors to Off
+		TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
 	}
 
 	if (!bActive)
 	{
-		Mesh->SetVisibility(false);
-		Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		//Mesh->SetVisibility(false);
+		//Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 		BottomCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		BottomMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		BottomMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		BottomMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		BottomMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+
+		TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+		TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	}
+	else
+	{
+		UpdateBottomMonitorMaterials();
+
+		if (bHasTopCollider)
+		{
+			UpdateTopMonitorMaterials();
+		}
 	}
 }
 
@@ -146,6 +169,8 @@ void APuzzleNode::RotateBottomDirections()
 	}
 
 	BottomDirections[0] = Temp;
+
+	// update materials on bottom monitors
 }
 
 void APuzzleNode::RotateTopDirections()
@@ -159,6 +184,24 @@ void APuzzleNode::RotateTopDirections()
 	}
 
 	TopDirections[0] = Temp;
+
+	// update materials on top monitors
+}
+
+void APuzzleNode::UpdateBottomMonitorMaterials()
+{
+	BottomMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[0]]);
+	BottomMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[1]]);
+	BottomMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[2]]);
+	BottomMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[3]]);
+}
+
+void APuzzleNode::UpdateTopMonitorMaterials()
+{
+	TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[0]]);
+	TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[1]]);
+	TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[2]]);
+	TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[3]]);
 }
 
 void APuzzleNode::ClearVisited()

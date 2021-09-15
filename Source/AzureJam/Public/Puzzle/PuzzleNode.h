@@ -31,28 +31,31 @@ public:
 	UBoxComponent* TopCollider;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* BottomMonitor1;
+	UStaticMeshComponent* BottomMonitor1;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* BottomMonitor2;
+	UStaticMeshComponent* BottomMonitor2;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* BottomMonitor3;
+	UStaticMeshComponent* BottomMonitor3;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* BottomMonitor4;
+	UStaticMeshComponent* BottomMonitor4;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* TopMonitor1;
+	UStaticMeshComponent* TopMonitor1;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* TopMonitor2;
+	UStaticMeshComponent* TopMonitor2;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* TopMonitor3;
+	UStaticMeshComponent* TopMonitor3;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* TopMonitor4;
+	UStaticMeshComponent* TopMonitor4;
+
+	UPROPERTY(EditAnywhere)
+	TMap<EDirection, UMaterialInstance*> DirectionToScreenMaterialMap;
 
 	UPROPERTY(EditAnywhere)
 	bool bHasTopCollider;
@@ -98,4 +101,7 @@ private:
 	// array of points
 	UPROPERTY()
 	TArray<APuzzleNodePoint*> Points;
+
+	void UpdateBottomMonitorMaterials();
+	void UpdateTopMonitorMaterials();
 };
