@@ -30,6 +30,7 @@ public:
 	bool IsTesting();
 	void UpdateNextLocation();
 	APuzzleNodePoint* GetNextLocation();
+	APuzzleNode* GetNextNode();
 	bool HasNextNode();
 
 	void CompletePuzzle();

@@ -99,8 +99,10 @@ void AGridPuzzle::FailPuzzle()
 bool AGridPuzzle::IsEndNode(int32 CurrentX, int32 CurrentY)
 {
 	APuzzleNode* Current = GetNodeAtCoordinate(CurrentX, CurrentY);
-	if (IsValid(Current))
+	if (IsValid(Current) && IsValid(EndNode))
 	{
+		UE_LOG(LogTemp, Warning, TEXT("GridPuzzle: IsEndNode: Testing nodes: %s vs %s"), *Current->GetName(), *EndNode->GetName());
+
 		if (Current->GetCoordinates() == EndNode->GetCoordinates())
 		{
 			return true;

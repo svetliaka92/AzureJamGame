@@ -1,17 +1,17 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AI/BTTask_GetNextNode.h"
+#include "AI/BTTask_GetNextLocation.h"
 #include "PuzzleAIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Puzzle/PuzzleNodePoint.h"
 
-UBTTask_GetNextNode::UBTTask_GetNextNode()
+UBTTask_GetNextLocation::UBTTask_GetNextLocation()
 {
 	NodeName = TEXT("Get Next Node");
 }
 
-EBTNodeResult::Type UBTTask_GetNextNode::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
+EBTNodeResult::Type UBTTask_GetNextLocation::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 	Super::ExecuteTask(OwnerComp, NodeMemory);
 
@@ -21,11 +21,11 @@ EBTNodeResult::Type UBTTask_GetNextNode::ExecuteTask(UBehaviorTreeComponent& Own
 		return EBTNodeResult::Failed;
 	}
 
-	APuzzleNode* NextNode = Controller->GetNextNode();
-	if (NextNode)
+	APuzzleNodePoint* NextLocation = Controller->GetNextLocation();
+	if (NextLocation)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("BTTask_GetNextNode: ExecuteTask: Next location: %s"), *NextNode->GetName());
-		OwnerComp.GetBlackboardComponent()->SetValueAsObject(GetSelectedBlackboardKey(), NextNode);
+		UE_LOG(LogTemp, Warning, TEXT("BTTask_GetNextNode: ExecuteTask: Next location: %s"), *NextLocation->GetName());
+		OwnerComp.GetBlackboardComponent()->SetValueAsObject(GetSelectedBlackboardKey(), NextLocation);
 		return EBTNodeResult::Succeeded;
 	}
 	else
@@ -34,7 +34,6 @@ EBTNodeResult::Type UBTTask_GetNextNode::ExecuteTask(UBehaviorTreeComponent& Own
 		OwnerComp.GetBlackboardComponent()->ClearValue(GetSelectedBlackboardKey());
 		return EBTNodeResult::Failed;
 	}
-	
 
 	return EBTNodeResult::Succeeded;
 }

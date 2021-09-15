@@ -138,12 +138,16 @@ APuzzleNodePoint* APuzzleAIController::GetNextLocation()
 	return NextLocation;
 }
 
+APuzzleNode* APuzzleAIController::GetNextNode()
+{
+	return CurrentNode;
+}
+
 void APuzzleAIController::VisitNode()
 {
 	// tell puzzle to mark node point as visited
 	Puzzle->OnNodePointVisit(CurrentNode->GetCoordinates().X, CurrentNode->GetCoordinates().Y, CurrentNodePointIndex);
-	
-	UpdateNextLocation();
+	UE_LOG(LogTemp, Warning, TEXT("PuzzleAIController.cpp VisitNode: Marking current node as visited, node: %s"), *CurrentNode->GetName());
 }
 
 bool APuzzleAIController::IsNodeVisited()

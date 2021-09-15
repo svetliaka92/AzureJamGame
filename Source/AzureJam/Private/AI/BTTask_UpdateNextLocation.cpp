@@ -1,15 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AI/BTTask_FailPuzzle.h"
+#include "AI/BTTask_UpdateNextLocation.h"
 #include "PuzzleAIController.h"
 
-UBTTask_FailPuzzle::UBTTask_FailPuzzle()
+UBTTask_UpdateNextLocation::UBTTask_UpdateNextLocation()
 {
-	NodeName = TEXT("Fail puzzle");
+	NodeName = TEXT("Update controller next location");
 }
 
-EBTNodeResult::Type UBTTask_FailPuzzle::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
+EBTNodeResult::Type UBTTask_UpdateNextLocation::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 	Super::ExecuteTask(OwnerComp, NodeMemory);
 
@@ -19,7 +19,7 @@ EBTNodeResult::Type UBTTask_FailPuzzle::ExecuteTask(UBehaviorTreeComponent& Owne
 		return EBTNodeResult::Failed;
 	}
 
-	Controller->FailPuzzle();
+	Controller->UpdateNextLocation();
 
 	return EBTNodeResult::Succeeded;
 }
