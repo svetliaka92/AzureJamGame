@@ -137,6 +137,8 @@ void AGridPuzzle::OnNodePointVisit(int32 CurrentX, int32 CurrentY, int32 Current
 		{
 			NodePoint->bVisited = true;
 		}
+
+		Current->OnVisit();
 	}
 }
 

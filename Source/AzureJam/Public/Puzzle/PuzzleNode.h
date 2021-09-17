@@ -31,31 +31,16 @@ public:
 	UBoxComponent* TopCollider;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* BottomMonitor1;
+	TArray<UStaticMeshComponent*> BottomMonitors;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* BottomMonitor2;
+	TArray<UStaticMeshComponent*> TopMonitors;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* BottomMonitor3;
+	TMap<EDirection, UMaterialInstance*> DirectionToDisconnectedScreenMaterialMap;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* BottomMonitor4;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* TopMonitor1;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* TopMonitor2;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* TopMonitor3;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* TopMonitor4;
-
-	UPROPERTY(EditAnywhere)
-	TMap<EDirection, UMaterialInstance*> DirectionToScreenMaterialMap;
+	TMap<EDirection, UMaterialInstance*> DirectionToConnectedScreenMaterialMap;
 
 	UPROPERTY(EditAnywhere)
 	bool bHasTopCollider;
@@ -83,6 +68,7 @@ public:
 	bool bInteractable = true;
 
 	void LockRedirectors(bool bFlag);
+	void OnVisit();
 	void ClearVisited();
 
 protected:
@@ -104,4 +90,6 @@ private:
 
 	void UpdateBottomMonitorMaterials();
 	void UpdateTopMonitorMaterials();
+
+	UMaterialInstance* CalculateScreenMaterial(const int32& PointIndex, const EDirection& Direction);
 };

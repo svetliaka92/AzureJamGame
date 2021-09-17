@@ -14,7 +14,31 @@ APuzzleNode::APuzzleNode()
 	TopCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Top collider"));
 	TopCollider->SetupAttachment(Root);
 
-	BottomMonitor1 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Bottom Monitor 1"));
+	if (BottomMonitors.Num() > 0)
+	{
+		BottomMonitors.Empty();
+	}
+	if (TopMonitors.Num() > 0)
+	{
+		TopMonitors.Empty();
+	}
+	
+	for (int32 i = 0; i < 4; ++i)
+	{
+		FString MeshName = TEXT("Bottom Monitor " + FString::FromInt(i));
+		UStaticMeshComponent* BottomMonitorMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName(MeshName));
+		BottomMonitorMesh->SetupAttachment(Root);
+
+		BottomMonitors.Add(BottomMonitorMesh);
+
+		FString TopMeshName = TEXT("Top Monitor " + FString::FromInt(i));
+		UStaticMeshComponent* TopMonitorMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName(TopMeshName));
+		TopMonitorMesh->SetupAttachment(Root);
+
+		TopMonitors.Add(TopMonitorMesh);
+	}
+
+	/*BottomMonitor1 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Bottom Monitor 1"));
 	BottomMonitor1->SetupAttachment(Root);
 
 	BottomMonitor2 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Bottom Monitor 2"));
@@ -36,51 +60,90 @@ APuzzleNode::APuzzleNode()
 	TopMonitor3->SetupAttachment(Root);
 
 	TopMonitor4 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Top Monitor 4"));
-	TopMonitor4->SetupAttachment(Root);
+	TopMonitor4->SetupAttachment(Root);*/
 }
 
 void APuzzleNode::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (!bHasTopCollider)
-	{
-		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-
-		// set the screen material of the top monitors to Off
-		TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-	}
-
 	if (!bActive)
 	{
-		//Mesh->SetVisibility(false);
-		//Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-
 		BottomCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
-		BottomMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		BottomMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		BottomMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		BottomMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-
-		TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-		TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
-	}
-	else
-	{
-		UpdateBottomMonitorMaterials();
-
-		if (bHasTopCollider)
+		for (int32 i = 0; i < TopMonitors.Num(); ++i)
 		{
-			UpdateTopMonitorMaterials();
+			BottomMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, EDirection::Zero));
 		}
+
+		for (int32 i = 0; i < TopMonitors.Num(); ++i)
+		{
+			TopMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, EDirection::Zero));
+		}
+
+		return;
 	}
+
+	UpdateBottomMonitorMaterials();
+	if (bHasTopCollider)
+	{
+		UpdateTopMonitorMaterials();
+	}
+
+	//if (!bHasTopCollider)
+	//{
+	//	TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	//	// set the screen material of the top monitors to Off
+	//	/*TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);*/
+
+	//	for (int32 i = 0; i < TopMonitors.Num(); ++i)
+	//	{
+	//		TopMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, EDirection::Zero));
+	//	}
+	//}
+
+	//if (!bActive)
+	//{
+	//	//Mesh->SetVisibility(false);
+	//	//Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	//	BottomCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	//	TopCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+	//	/*BottomMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	BottomMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	BottomMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	BottomMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+
+	//	TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);
+	//	TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[EDirection::Zero]);*/
+
+	//	for (int32 i = 0; i < TopMonitors.Num(); ++i)
+	//	{
+	//		BottomMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, EDirection::Zero));
+	//	}
+
+	//	for (int32 i = 0; i < TopMonitors.Num(); ++i)
+	//	{
+	//		TopMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, EDirection::Zero));
+	//	}
+	//}
+	//else
+	//{
+	//	UpdateBottomMonitorMaterials();
+
+	//	if (bHasTopCollider)
+	//	{
+	//		UpdateTopMonitorMaterials();
+	//	}
+	//}
 }
 
 void APuzzleNode::SetPoints(TArray<APuzzleNodePoint*> InPoints)
@@ -151,10 +214,12 @@ void APuzzleNode::OnComponentHit(UPrimitiveComponent* HitComponent)
 	if (HitComponent == BottomCollider)
 	{
 		RotateBottomDirections();
+		UpdateBottomMonitorMaterials();
 	}
 	else if (HitComponent == TopCollider)
 	{
 		RotateTopDirections();
+		UpdateTopMonitorMaterials();
 	}
 }
 
@@ -190,18 +255,28 @@ void APuzzleNode::RotateTopDirections()
 
 void APuzzleNode::UpdateBottomMonitorMaterials()
 {
-	BottomMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[0]]);
-	BottomMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[1]]);
-	BottomMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[2]]);
-	BottomMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[BottomDirections[3]]);
+	/*BottomMonitor1->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[BottomDirections[0]]);
+	BottomMonitor2->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[BottomDirections[1]]);
+	BottomMonitor3->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[BottomDirections[2]]);
+	BottomMonitor4->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[BottomDirections[3]]);*/
+
+	for (int32 i = 0; i < BottomMonitors.Num(); ++i)
+	{
+		BottomMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, BottomDirections[i]));
+	}
 }
 
 void APuzzleNode::UpdateTopMonitorMaterials()
 {
-	TopMonitor1->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[0]]);
-	TopMonitor2->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[1]]);
-	TopMonitor3->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[2]]);
-	TopMonitor4->SetMaterial(0, DirectionToScreenMaterialMap[TopDirections[3]]);
+	/*TopMonitor1->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[TopDirections[0]]);
+	TopMonitor2->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[TopDirections[1]]);
+	TopMonitor3->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[TopDirections[2]]);
+	TopMonitor4->SetMaterial(0, DirectionToDisconnectedScreenMaterialMap[TopDirections[3]]);*/
+
+	for (int32 i = 0; i < TopMonitors.Num(); ++i)
+	{
+		TopMonitors[i]->SetMaterial(0, CalculateScreenMaterial(i, TopDirections[i]));
+	}
 }
 
 void APuzzleNode::ClearVisited()
@@ -209,5 +284,31 @@ void APuzzleNode::ClearVisited()
 	for (APuzzleNodePoint* Point : Points)
 	{
 		Point->bVisited = false;
+	}
+}
+
+void APuzzleNode::OnVisit()
+{
+	UpdateBottomMonitorMaterials();
+	if (bHasTopCollider)
+	{
+		UpdateTopMonitorMaterials();
+	}
+}
+
+UMaterialInstance* APuzzleNode::CalculateScreenMaterial(const int32& PointIndex, const EDirection& Direction)
+{
+	if (PointIndex < 0 || PointIndex >= Points.Num())
+	{
+		return DirectionToDisconnectedScreenMaterialMap[Direction];
+	}
+
+	if (Points[PointIndex]->bVisited)
+	{
+		return DirectionToConnectedScreenMaterialMap[Direction];
+	}
+	else
+	{
+		return DirectionToDisconnectedScreenMaterialMap[Direction];
 	}
 }
