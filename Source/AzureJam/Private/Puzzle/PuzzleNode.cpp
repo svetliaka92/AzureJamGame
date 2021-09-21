@@ -285,6 +285,12 @@ void APuzzleNode::ClearVisited()
 	{
 		Point->bVisited = false;
 	}
+
+	UpdateBottomMonitorMaterials();
+	if (bHasTopCollider)
+	{
+		UpdateTopMonitorMaterials();
+	}
 }
 
 void APuzzleNode::OnVisit()

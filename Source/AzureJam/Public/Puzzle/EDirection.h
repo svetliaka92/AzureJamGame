@@ -11,4 +11,5 @@ enum class EDirection : uint8
 	Right,
 	Back,
 	Left,
+	Random,
 };

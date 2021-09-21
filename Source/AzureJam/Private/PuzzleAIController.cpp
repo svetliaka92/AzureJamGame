@@ -112,7 +112,12 @@ void APuzzleAIController::UpdateNextLocation()
 	int32 Index = CurrentNodePointIndex;
 
 	CurrentNode = Puzzle->GetNextNode(X, Y, Index);
-	CurrentNodePointIndex = Puzzle->GetNextNodePointIndex(X, Y, Index);
+	int TempNodePointIndex = Puzzle->GetNextNodePointIndex(X, Y, Index);
+
+	if (TempNodePointIndex >= 0)
+	{
+		CurrentNodePointIndex = TempNodePointIndex;
+	}
 
 	if (CurrentNode)
 	{

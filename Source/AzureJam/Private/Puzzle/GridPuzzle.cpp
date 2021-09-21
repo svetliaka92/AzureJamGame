@@ -170,10 +170,17 @@ FVector AGridPuzzle::GetNextNodePointLocation(int32 CurrentX, int32 CurrentY, in
 								  Next->GetCoordinates().Y - Current->GetCoordinates().Y);
 
 		int32 NextPointIndex = GetNodePointIndexFromDirection(Dir);
-		APuzzleNodePoint* NextPoint = Next->GetPointAtIndex(NextPointIndex);
-		if (IsValid(NextPoint))
+		if (NextPointIndex >= 0)
 		{
-			NextLocation = NextPoint->GetActorLocation();
+			APuzzleNodePoint* NextPoint = Next->GetPointAtIndex(NextPointIndex);
+			if (IsValid(NextPoint))
+			{
+				NextLocation = NextPoint->GetActorLocation();
+			}
+		}
+		else
+		{
+			NextLocation = Current->GetPointAtIndex(CurrentPointIndex)->GetActorLocation();
 		}
 	}
 
